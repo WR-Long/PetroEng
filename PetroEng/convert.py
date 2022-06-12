@@ -29,5 +29,5 @@ def convert(fromQuantity, fromUnit, toUnit):
 
 import json
 
-with open('data/Energistics_Unit_of_Measure_Dictionary_V1.0.json') as f:
+with open('Energistics_Unit_of_Measure_Dictionary_V1.0.json') as f:
     UoM = json.load(f)
