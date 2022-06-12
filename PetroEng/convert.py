@@ -1,6 +1,8 @@
 """
 Unit conversion using Energistics_Unit_of_Measure_Dictionary_V1.0
 """
+from pathlib import Path
+import json
 
 def convert(fromQuantity, fromUnit, toUnit):
     
@@ -27,7 +29,7 @@ def convert(fromQuantity, fromUnit, toUnit):
         toQty = (A - C*y) / (D*y - B)
     return toQty
 
-import json
-
-with open('./Energistics_Unit_of_Measure_Dictionary_V1.0.json') as f:
+folder = Path(__file__).parent
+file = folder / 'Energistics_Unit_of_Measure_Dictionary_V1.0.json'
+with file.open() as f:
     UoM = json.load(f)
