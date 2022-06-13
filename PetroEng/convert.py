@@ -29,6 +29,9 @@ def convert(fromQuantity, fromUnit, toUnit):
         toQty = (A - C*y) / (D*y - B)
     return toQty
 
+def UoMdict():
+    return UoM
+
 folder = Path(__file__).parent
 file = folder / 'Energistics_Unit_of_Measure_Dictionary_V1.0.json'
 with file.open() as f:
