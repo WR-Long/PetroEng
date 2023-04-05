@@ -1,0 +1,13 @@
+PetroEng
+Copyright (c) 2022-2023, William Long
+
+3rd-Party Software Notice
+========================================================================
+
+UoM Dictionary utilized in convert.py:
+-----
+This product contains a JSON version of the Energistics Unit of Measure 
+Dictionary derived from the Energistics Unit of Measure Standard - v1.0.
+(https://www.energistics.org/energistics-unit-of-measure-standard/, 
+https://www.energistics.org/product-license-agreement/)
+*Copyright 2014 Energistics

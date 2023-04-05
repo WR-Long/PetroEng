@@ -1,5 +1,5 @@
 """
-Tests for the convert module.
+Tests for the PetroEng convert module.
 """
 
 import PetroEng as pe
